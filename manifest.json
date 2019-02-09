@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Gitbook Clickthrough",
+  "version": "1.0.2",
+  "description": "Click through links on Gitbook's editor.",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://legacy.gitbook.com/*"]
+  }]
+}
